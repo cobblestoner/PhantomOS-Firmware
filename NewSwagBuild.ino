@@ -153,7 +153,7 @@ void setup() {
   lv_indev_drv_register(&indev_drv);
 
   lv_obj_t *label = lv_label_create(lv_scr_act());
-  lv_label_set_text(label, "Hello Ardino and LVGL!");
+  lv_label_set_text(label, "ello");
   lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
 
   const esp_timer_create_args_t lvgl_tick_timer_args = {
